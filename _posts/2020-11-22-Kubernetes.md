@@ -1,4 +1,3 @@
-### Introduction to Kubernetes
 Kubernetes is an open source **container orchestration tool** which was originally developed by **Google**. It manages 
 containers (docker or from other technologies) or **containerized applications** in different **deployment environments** 
 such as *physical machines*, *virtual machines*, *cloud environments* or even hybrid deployment environment.
