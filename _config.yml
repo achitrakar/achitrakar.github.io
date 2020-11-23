@@ -6,7 +6,7 @@
 name: Anup Chitrakar
 
 # Short bio or description (displayed in the header)
-description:
+description: if (something is True) { // do nothing } else { // do everything }
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/4932011?s=400&v=4
