@@ -1,10 +1,10 @@
 ---
+title: Minikube and kubectl - Local Setup
 layout: post
 category: Kubernetes
 tag: Kubernetes, k8, K8, minikube, kubectl
-title: Kubernetes
 ---
-### Minikube and kubectl - Local Setup
+
 #### minikube
 Minikube runs both Master and Worker processes.
 - Creates Virtual box on your laptop
@@ -287,6 +287,7 @@ Old one is still there and the new one got created as replica count was increase
 ### YAML Configuration File in Kubernetes
 #### The three parts of configuration file
 - nginx-deployment.yaml
+
 ```
 apiVersion: apps/v1
 kind: Deployment
@@ -298,7 +299,9 @@ spec:
   selector: ...
   template: ...
 ```
+
 - ngnix-service.yaml
+
 ```
 apiVersion: apps/v1
 kind: Service
